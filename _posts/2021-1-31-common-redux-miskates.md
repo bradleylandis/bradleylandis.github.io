@@ -24,7 +24,7 @@ If you call an api and then manipulate the response data before storing it in re
 
 ### Solution
 
-Store your raw source data in the Redux store and use selectors to perform any modifications. This ensures that any and all modifications of the data are kept in sync any time the source data is update in the Redux store. It also leads to smaller, simpler reducers.
+Store your raw source data in the Redux store and use selectors to perform any modifications. This ensures that any and all modifications of the data are kept in sync any time the source data is updated in the Redux store. It also leads to smaller, simpler reducers.
 
 ## Don’t comingle entity data and presentation state
 
