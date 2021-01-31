@@ -12,7 +12,7 @@ It seems that Redux is already falling out of favor as a state management engine
 
 There is a complexity cost to elevating state to Redux. Don’t take on the cost unless it is necessary.
 
-#### Solution
+### Solution
 
 Use local state when possible. Avoid the urge to put state in Redux because you think you’ll need it in another component later. It is easy enough to promote local state to Redux once needed. Local state and Redux can coexist.
 
