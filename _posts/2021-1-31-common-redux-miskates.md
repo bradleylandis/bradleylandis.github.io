@@ -4,7 +4,7 @@ comments: true
 title: Common Redux Mistakes
 ---
 
-It seems that Redux is already falling out of favor as a state management engine for React. However, I am still using it on some projects and find it quite helpful when used properly. I wanted to document a few of the mistakes I have seen, and likely committed myself, that you can avoid in order to keep your Redux implementation clean. Most of these will likely also translate to another state management framework as well.
+I wanted to document a few of the mistakes I have seen, and likely committed myself, that you can avoid in order to keep your Redux implementation clean. Most of these will likely also translate to another state management framework as well.
 
 ## Don’t put state into Redux unnecessarily
 
